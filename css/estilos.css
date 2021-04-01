@@ -8,3 +8,67 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+.contenedor{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.menu-nav{
+    text-align: right;
+    padding: 0;
+}
+
+.menu-nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.menu-nav a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    width: 100%;
+    background-image:  linear-gradient(-225deg, rgba(44, 216, 213, 0.404) 0%, rgba(197, 193, 255, 0.404) 56%, rgba(255, 186, 195, 0.404) 100%), 
+    url("../img/girl.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.contenedor-textos{
+    padding-bottom: 100px;
+}
+
+.hero{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1{
+    font-size: 60px;
+}
+
+.copy{
+    font-size: 24px;
+    padding: 20px 0;
+    font-weight: 300;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
